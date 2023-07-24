@@ -38,3 +38,18 @@
 .buttoms button:hover {
   background-color: #e9e3e3;
 }
+@media (max-width: 480px) and (min-width: 200px) {
+  .card {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+  }
+  .buttoms {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 375px;
+  }
+  .screen {
+    width: 375px;
+  }
+}

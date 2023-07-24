@@ -9,7 +9,7 @@ const Body = (props) => {
       <div className="buttoms">
         <button value={'C'} onClick={handle}>C</button>
         <button value={')'} onClick={handle}>)</button>
-        <button value={'%'} onClick={handle}>%</button>
+        <button value={'Del'} onClick={handle}>Del</button>
         <button value={'/'} onClick={handle}>/</button>
         <button value={7} onClick={handle}>7</button>
         <button value={8} onClick={handle}>8</button>
