@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen {
+  background-color: rgb(179, 212, 241);
+  width: 502px;
+  height: 123px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 94px;
+  text-align: end;
+  font-size: 3rem;
+  padding: 8px;
+  font-family: "Tektur", cursive;
+}
+.buttoms {
+  /* background-color: aqua; */
+  width: 502px;
+  /* height: 123px; */
+  margin: auto;
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: auto auto auto auto;
+  border: 3px solid black;
+  padding: 3px;
+  border-radius: 10px;
+}
+.buttoms button {
+  padding: 5px;
+  margin: 3px;
+  font-size: 40px;
+  border-radius: 30%;
+  background-color: #b4b0b0;
+}
+.buttoms button:hover {
+  background-color: #e9e3e3;
+}
